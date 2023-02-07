@@ -1,0 +1,28 @@
+.header{
+    //border: 2px solid red;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options{
+    width: max-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.option{
+    //border: 2px solid blue;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+        color: blue;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+    }
+}

@@ -1,0 +1,14 @@
+.shop {
+  background: #000;
+  color: red;
+  padding: 30px 60px;
+}
+.shop h1 {
+  margin-bottom: 30px;
+}
+
+.shopFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=ShopCollectionComponent.css.map */
